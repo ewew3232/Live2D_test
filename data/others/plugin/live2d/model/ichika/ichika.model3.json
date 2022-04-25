@@ -1,0 +1,50 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "ichika.moc3",
+		"Textures": [
+			"ichika.2048/texture_00.png"
+		],
+		"DisplayInfo": "ichika.cdi3.json",
+		"Motions": {
+			"Test": [
+				{
+					"File": "motions/ichika_kokyuu.motion3.json"
+				},
+				{
+					"File": "motions/ichika_mesorasi.motion3.json"
+				},
+				{
+					"File": "motions/ichika_nemuri.motion3.json"
+				},
+				{
+					"File": "motions/ichika_okori.motion3.json"
+				},
+				{
+					"File": "motions/ichika_warai.motion3.json"
+				},
+				{
+					"File": "motions/ichika_yure.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": []
+}
