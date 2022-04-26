@@ -373,7 +373,7 @@
         });
     };
 
-    $.loadText = function(file_path, callback) {
+$.loadText = function(file_path, callback) {
         
         /*
         var httpObj = jQuery.get(file_path + "?" + Math.floor(Math.random() * 1000000), null, function(obj) {
@@ -408,7 +408,6 @@
                 callback(order_str);
             },
             error:function(){
-                alert("file not found:"+file_path);
                 callback("");
             }
         });
