@@ -1,0 +1,180 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamAngleZ",
+			"GroupId": "",
+			"Name": "角度 Z"
+		},
+		{
+			"Id": "ParamEyeLOpen",
+			"GroupId": "",
+			"Name": "左目　開閉"
+		},
+		{
+			"Id": "ParamEyeROpen",
+			"GroupId": "",
+			"Name": "右目　開閉"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "",
+			"Name": "目玉 X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "",
+			"Name": "目玉 Y"
+		},
+		{
+			"Id": "ParamBrowLAngle",
+			"GroupId": "",
+			"Name": "左眉　角度"
+		},
+		{
+			"Id": "ParamBrowRAngle",
+			"GroupId": "",
+			"Name": "右眉　角度"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "",
+			"Name": "口　開閉"
+		},
+		{
+			"Id": "ParamBodyAngleX",
+			"GroupId": "",
+			"Name": "体の回転　X"
+		},
+		{
+			"Id": "ParamBodyAngleY",
+			"GroupId": "",
+			"Name": "体の回転　Y"
+		},
+		{
+			"Id": "ParamBodyAngleZ",
+			"GroupId": "",
+			"Name": "体の回転　Z"
+		},
+		{
+			"Id": "ParamBreath",
+			"GroupId": "",
+			"Name": "呼吸"
+		},
+		{
+			"Id": "ParamHairFront",
+			"GroupId": "",
+			"Name": "髪揺れ　前"
+		},
+		{
+			"Id": "ParamHairSide",
+			"GroupId": "",
+			"Name": "髪揺れ　横"
+		},
+		{
+			"Id": "ParamHairBack",
+			"GroupId": "",
+			"Name": "髪揺れ　後"
+		},
+		{
+			"Id": "ParamArmL01",
+			"GroupId": "",
+			"Name": "左上腕"
+		},
+		{
+			"Id": "ParamArmR01",
+			"GroupId": "",
+			"Name": "右上腕"
+		},
+		{
+			"Id": "ParamCheak",
+			"GroupId": "",
+			"Name": "><"
+		},
+		{
+			"Id": "ParamCheak2",
+			"GroupId": "",
+			"Name": "○○"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part01Core",
+			"Name": "コア"
+		},
+		{
+			"Id": "Part01Face001",
+			"Name": "顔"
+		},
+		{
+			"Id": "Part01Eye001",
+			"Name": "目"
+		},
+		{
+			"Id": "Part01EyeBall001",
+			"Name": "目玉"
+		},
+		{
+			"Id": "Part01Brow001",
+			"Name": "まゆ毛"
+		},
+		{
+			"Id": "Part01Mouth001",
+			"Name": "口"
+		},
+		{
+			"Id": "Part01HairSide001",
+			"Name": "横髪"
+		},
+		{
+			"Id": "Part01Ear001",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part01HairFront001",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part01HairBack001",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part01Neck",
+			"Name": "首"
+		},
+		{
+			"Id": "Part01Arm",
+			"Name": "腕"
+		},
+		{
+			"Id": "Part01Body",
+			"Name": "体"
+		},
+		{
+			"Id": "Part01Item",
+			"Name": "アイテム"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamAngleX",
+			"ParamAngleY"
+		]
+	]
+}

@@ -1,7 +1,5 @@
-[_tb_system_call storage=system/_preview.ks ]
+[_tb_system_call storage=system/_scene2.ks]
 
-[mask time=10]
-[mask_off time=10]
 [cm  ]
 [live2d_new  model_id="ミニチカ"  breath="true"  lip_time="100"  lip="true"  jname="ミニチカ"  ]
 [bg  storage="room.jpg"  time="1000"  ]

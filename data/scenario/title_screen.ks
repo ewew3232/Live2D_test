@@ -4,26 +4,21 @@
 
 [tb_clear_images]
 
+[cm  ]
 [tb_keyconfig  flag="0"  ]
 [tb_hide_message_window  ]
-[jump  storage="scene1.ks"  target=""  ]
-[s  ]
-[bg  storage="title.jpg"  ]
+[bg  time="1000"  method="crossfade"  storage="title.jpg"  ]
 *title
 
-[glink  color="black"  text="はじめから"  x="600"  y="370"  size="24"  target="*start"  ]
-[glink  color="black"  text="つづきから"  x="600"  y="470"  size="24"  target="*load"  ]
+[glink  color="ts07"  text="Live2D_立ち絵テスト"  x="240"  y="200"  size="24"  target="*s1"  width="360"  height=""  _clickable_img=""  ]
+[glink  color="ts07"  text="Live2D_ミニ絵テスト"  x="240"  y="300"  size="24"  target="*s2"  width="360"  height=""  _clickable_img=""  ]
 [s  ]
-*start
+*s1
 
-[showmenubutton]
-
-[cm  ]
+[jump  storage="scene1.ks"  target=""  ]
 [tb_keyconfig  flag="1"  ]
-*load
+[s  ]
+*s2
 
-[cm  ]
-[showload]
-
-[jump  target="*title"  storage=""  ]
+[jump  storage="scene2.ks"  target=""  ]
 [s  ]

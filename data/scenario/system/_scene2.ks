@@ -1,2 +1,2 @@
 [preload  storage="./data/bgimage/room.jpg"  ]
-[return] 
+[return]
