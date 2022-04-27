@@ -1,5 +1,7 @@
 [_tb_system_call storage=system/_title_screen.ks]
 
+[live2d_new  model_id="ichika"  breath="true"  lip_time="100"  lip="true"  jname="イチカ"  ]
+[live2d_new  model_id="ミニチカ"  breath="true"  lip_time="100"  lip="true"  jname="ミニチカ"  ]
 [hidemenubutton]
 
 [tb_clear_images]

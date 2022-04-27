@@ -14,10 +14,23 @@
 			{
 				"Name": "eye2",
 				"File": "expressions/eye2.exp3.json"
+			},
+			{
+				"Name": "taiki",
+				"File": "expressions/taiki.exp3.json"
 			}
 		],
 		"Motions": {
-			"Taiki": [
+			"Test": [
+				{
+					"File": "motion/eye1.motion3.json"
+				},
+				{
+					"File": "motion/eye2.motion3.json"
+				},
+				{
+					"File": "motion/random.motion3.json"
+				},
 				{
 					"File": "motion/taiki.motion3.json"
 				}

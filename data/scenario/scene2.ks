@@ -1,6 +1,5 @@
 [_tb_system_call storage=system/_scene2.ks]
 
-[cm  ]
 [live2d_new  model_id="ミニチカ"  breath="true"  lip_time="100"  lip="true"  jname="ミニチカ"  ]
 [bg  storage="room.jpg"  time="1000"  ]
 [tb_show_message_window  ]
@@ -35,8 +34,10 @@ Live2D_Test[l][r]
 *botton
 
 [live2d_motion  name="ミニチカ"  mtn="Taiki"  ]
-[glink  color="ts07"  storage="scene2.ks"  size="30"  x="440"  y="100"  width="240"  height="30"  text="目の差し替え1"  _clickable_img=""  target="*sabun1"  ]
-[glink  color="ts07"  storage="scene2.ks"  size="30"  x="440"  y="200"  width="240"  height="30"  text="目の差し替え2"  _clickable_img=""  target="*sabun2"  ]
+[glink  color="ts07"  storage="scene2.ks"  size="30"  x="440"  y="100"  width="280"  height="30"  text="目の差し替え1"  _clickable_img=""  target="*sabun1"  ]
+[glink  color="ts07"  storage="scene2.ks"  size="30"  x="440"  y="200"  width="280"  height="30"  text="目の差し替え2"  _clickable_img=""  target="*sabun2"  ]
+[glink  color="ts07"  storage="scene2.ks"  size="30"  x="440"  y="400"  width="280"  height="30"  text="ランダムモーション"  _clickable_img=""  target="*m1"  ]
+[glink  color="ts07"  storage="scene2.ks"  size="30"  x="440"  y="300"  width="280"  height="30"  text="表情を戻す"  _clickable_img=""  target="*m2"  ]
 [s  ]
 *sabun1
 
@@ -48,5 +49,15 @@ Live2D_Test[l][r]
 
 [live2d_expression  name="ミニチカ"  expression="eye2"  ]
 [wait  time="1000"  ]
+[jump  storage="scene2.ks"  target="*botton"  ]
+[s  ]
+*m1
+
+[live2d_motion  name="ミニチカ"  mtn="Test"  no="2"  ]
+[jump  storage="scene2.ks"  target="*botton"  ]
+[s  ]
+*m2
+
+[live2d_expression  name="ミニチカ"  expression="taiki"  ]
 [jump  storage="scene2.ks"  target="*botton"  ]
 [s  ]

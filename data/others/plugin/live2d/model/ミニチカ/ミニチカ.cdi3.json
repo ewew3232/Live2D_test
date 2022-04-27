@@ -170,11 +170,5 @@
 			"Id": "Part01Item",
 			"Name": "アイテム"
 		}
-	],
-	"CombinedParameters": [
-		[
-			"ParamAngleX",
-			"ParamAngleY"
-		]
 	]
 }
